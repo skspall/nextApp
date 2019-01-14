@@ -1,10 +1,10 @@
 import React from 'react';
 
 class ContactPage extends React.Component {
-  static async getInitialProps({ req }) {
-    const userAgent = req ? req.headers['user-agent'] : navigator.userAgent;
-    return { userAgent };
-  }
+//   static async getInitialProps({ req }) {
+//     const userAgent = req ? req.headers['user-agent'] : navigator.userAgent;
+//     return { userAgent };
+//   }
 
   render() {
     return (
